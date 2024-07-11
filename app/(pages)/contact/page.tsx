@@ -1,3 +1,3 @@
 export default function Page(){
-    return <div>contact</div>
+    return <div>  <h1>U IZRADI</h1></div>
 }
