@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Slide 1 Title",
+    "tagline": "Slide 1 Tagline",
+    "image": "/slider_1.jpeg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Button 1 text",
+        "link": "https://www.google.rs/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Slide 2 Title",
+    "tagline": "Slide 2 Tagline",
+    "image": "/slider_2.png",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Button 2 text",
+        "link": "https://www.google.rs/",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  }
+]

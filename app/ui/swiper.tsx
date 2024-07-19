@@ -34,7 +34,7 @@ interface DemoSliderProps {
 const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
   return (
     <section className="w-full">
-      <div className=" h-screen">
+      <div className="h-screen">
         <ul className="h-full w-full">
           <Swiper
             navigation
@@ -42,6 +42,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
             autoplay={true}
             loop={true}
             modules={[Autoplay, Navigation, Pagination]}
+            className="h-96"
           >
             {data.map(({ id, image, tagline, title, buttons }) => (
               <SwiperSlide key={id}>
