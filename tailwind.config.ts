@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'rappa-blue': '#1c3244',
-        'rappa-brown': '#8c7e75',
-        'rappa-light-brown': '#e6ded7',
+        "rappa-blue": "#1c3244",
+        "rappa-brown": "#8c7e75",
+        "rappa-light-brown": "#e6ded7",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
