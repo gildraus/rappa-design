@@ -9,7 +9,7 @@ export default function Page() {
     <div>
       <Swiper data={dataSlider}></Swiper>
       <Cities></Cities>
-      {/* <Team></Team> */}
+      <Team></Team>
       {/* <Mission></Mission> */}
     </div>
   );
